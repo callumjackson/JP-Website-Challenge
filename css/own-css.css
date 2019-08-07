@@ -1,0 +1,22 @@
+.JP-logo{
+  width: 27%;
+  height: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.title-text{
+  text-align: center;
+color: black;
+padding-left: 70px
+}
+.logo-wrapper{
+  padding-left: 400px;
+  width: 50%;
+  float: left;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
