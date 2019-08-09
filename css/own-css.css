@@ -25,7 +25,9 @@ body{
 color: white;
 padding-left: 70px
 }
-
+.main-text{
+  padding-bottom: 5px;
+}
 @media only screen and (max-width: 736px) {
   .title-text {
     display: none;
@@ -67,8 +69,8 @@ padding-left: 70px
 .section1{
   background-image: url("../assets/homepage/cave.jpg");
    background-repeat: no-repeat;
-   width: 100%;
-   height: auto;
+   width: auto;
+   height: 100%;
 }
 .header-attributes{
   background: rgba(0, 0, 0.0, 0.5);
@@ -87,6 +89,28 @@ height: 560px;
 margin-left: 20px;
 margin-right: 20px;
 }
-hr.style1{
-	border-top: 1px solid #8c8b8b;
+@media only screen and (max-width: 736px) {
+  .section1{
+    background-image: url("../assets/mobile-background/mobile-bg2.jpg");
+    background-repeat: repeat-y;
+  }
+  .header-attributes{
+  margin-top: 50px;
+  margin-bottom: 50px;
+   height: 600px;
+
+}
+}
+.parallax-container {
+      height: "200px" !important;
+    }
+
+.section2{
+  background-image: url("../assets/homepage/lake.jpg");
+   background-repeat: no-repeat;
+   width: 100%;
+}
+.section2-content{
+   width: auto;
+   height: 900px;
 }
