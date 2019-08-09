@@ -1,3 +1,12 @@
+html{
+  font-family: 'Lexend Deca', sans-serif;
+}
+body{
+  background-image: url("../assets/homepage/home.jpg");
+   background-repeat: no-repeat;
+   width: 100%;
+   height: auto;
+}
 .JP-logo{
   width: 27%;
   height: auto;
@@ -6,7 +15,7 @@
 }
 .title-text{
   text-align: center;
-color: black;
+color: white;
 padding-left: 70px
 }
 .logo-wrapper{
@@ -14,9 +23,37 @@ padding-left: 70px
   width: 50%;
   float: left;
 }
+.nav-links{
+  padding-right: 400px;
+}
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
 	font-size: inherit;
+}
+.home-content{
+  padding-top: 500px;
+  text-align: center;
+}
+
+.section1{
+  background-image: url("../assets/homepage/cave.jpg");
+   background-repeat: no-repeat;
+   width: 100%;
+   height: auto;
+}
+.header-attributes{
+  background: rgba(0, 0, 0.0, 0.3);
+  color: #ffffff;
+margin-top: 200px;
+margin-bottom: 300px;
+ height: 500px;
+
+}
+.header-content{
+  border-style: solid;
+  border-width: 1px;
+   border-color: #fff;
+  margin: 30px;
 }

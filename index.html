@@ -7,13 +7,17 @@
       <link type="text/css" rel="stylesheet" href="css/materialize" media="screen,projection">
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
       <link type="text/css" rel="stylesheet" href="css/own-css.css" media="screen,projection">
+      <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
 
       <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/
     </head>
     <body>
       <header> <!-- area containing the nav bar -->
+        <div class="navbar-fixed">
+
         <nav>
+
   <div class="nav-wrapper">
     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">apps</i></a>
 
@@ -21,27 +25,91 @@
       <a href="#" class="brand-logo"><img class="JP-logo" src="assets/JP-logo/logo-small-white.svg" alt=""></a>
       <a href="#!"class="title-text">Company Name</a>
     </div>
-    <ul class="right hide-on-med-and-down">
-      <li><a href="sass.html">Sass</a></li>
-      <li><a href="badges.html">Components</a></li>
+    <ul class="right hide-on-med-and-down nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#section1">Section1</a></li>
+      <li><a href="#section2">Section2</a></li>
     </ul>
   </div>
 
 
 <ul class="sidenav" id="mobile-demo">
-  <li><a href="sass.html">Sass</a></li>
-  <li><a href="badges.html">Components</a></li>
-  <li><a href="collapsible.html">Javascript</a></li>
-  <li><a href="mobile.html">Mobile</a></li>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="#section1">Section1</a></li>
+  <li><a href="#section2">Section2</a></li>
 </ul>
 
 </nav>
+  </div>
       </header>
       <main>
-        <div class="container section1">
+        <section class="section" id="main">
+          <div class="home-content">
+            <div class="container">
+              <h3 class="center">Company Name</h3>
+              <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra, turpis at facilisis
+                 aliquet, augue ligula cursus nisl, a commodo sapien diam pretium ex. Nullam viverra sem sed
+                 magna posuere, et laoreet quam ultricies.</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra, turpis at facilisis aliquet, augue ligula cursus nisl, a commodo sapien diam pretium ex. Nullam viverra sem sed magna posuere, et laoreet quam ultricies. Phasellus varius varius blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor suscipit felis, in suscipit tortor dapibus id. Donec suscipit tristique dui vitae ullamcorper. Praesent laoreet eleifend augue, viverra condimentum turpis posuere mollis.</p>
+                 <br>
+              <a class="home-bottom-link" href="#section1">Read more <i class="tiny material-icons">arrow_drop_down_circle</i></a>
+            </div>
+          </div>
+      </section>
+      <br>
+      <section class="section">
+        <div class="section1" id="section1">
+          <div class="container center">
+            <div class="row">
+              <div class="col s12 m4">
+                <div class="header-attributes">
+                  <div class="header-content">
+                    <h2>heading 1</h2>
+                    <br>
+                    <ul>
+                      <li><h5><i class="tiny material-icons">details</i> Bullet1</h5></li><br>
+                      <li><h5><i class="tiny material-icons">details</i> Bullet2</h5></li><br>
+                      <li><h5><i class="tiny material-icons">details</i> Bullet3</h5></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m4">
+                <div class="header-attributes">
+                  <div class="header-content">
+                    <h2>heading 2</h2>
+                    <br>
+                    <ul>
+                      <li><h5><i class="tiny material-icons">details</i> Bullet1</h5></li><br>
+                      <li><h5><i class="tiny material-icons">details</i> Bullet2</h5></li><br>
+                      <li><h5><i class="tiny material-icons">details</i> Bullet3</h5></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m4">
+                <div class="header-attributes">
+                  <div class="header-content">
+                    <h2>heading 3</h2>
+                    <br>
+                    <ul>
+                      <li><h5><i class="tiny material-icons">details</i> Bullet1</h5></li><br>
+                      <li><h5><i class="tiny material-icons">details</i> Bullet2</h5></li><br>
+                      <li><h5><i class="tiny material-icons">details</i> Bullet3</h5></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+          </div>
         </div>
 
+      </section>
+
+      <section class="section" id="section2">
+
+      </section>
       </main>
 
 
