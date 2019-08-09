@@ -1,8 +1,9 @@
 var elem = document.querySelector('.sidenav');
  var instance = new M.Sidenav(elem);
 
-  // with jquery
+ document.addEventListener('DOMContentLoaded', function() {
+   var elems = document.querySelectorAll('.scrollspy');
+  
 
- $(document).ready(function(){
-  $('.sidenav').sidenav();
+  var instance = M.ScrollSpy.getInstance(elem);
  });

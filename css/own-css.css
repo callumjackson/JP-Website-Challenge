@@ -7,6 +7,13 @@ body{
    width: 100%;
    height: auto;
 }
+@media only screen and (max-width: 736px) {
+  body {
+    background-image: url("../assets/mobile-background/mobile-bg.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+}
 .JP-logo{
   width: 27%;
   height: auto;
@@ -18,8 +25,24 @@ body{
 color: white;
 padding-left: 70px
 }
+
+@media only screen and (max-width: 736px) {
+  .title-text {
+    display: none;
+  }
+  .JP-logo{
+    display: none;
+  }
+  .mobile-view{
+   display: inline-block !important;
+   font-size: 20px !important;
+  }
+}
+.mobile-view{
+  display: none;
+}
 .logo-wrapper{
-  padding-left: 400px;
+  padding-left: 300px;
   width: 50%;
   float: left;
 }
@@ -36,7 +59,11 @@ padding-left: 70px
   padding-top: 500px;
   text-align: center;
 }
-
+@media only screen and (max-width: 736px) {
+.home-content{
+  padding-top: 300px;
+}
+}
 .section1{
   background-image: url("../assets/homepage/cave.jpg");
    background-repeat: no-repeat;
@@ -44,16 +71,22 @@ padding-left: 70px
    height: auto;
 }
 .header-attributes{
-  background: rgba(0, 0, 0.0, 0.3);
+  background: rgba(0, 0, 0.0, 0.5);
   color: #ffffff;
-margin-top: 200px;
-margin-bottom: 300px;
- height: 500px;
+margin-top: 150px;
+margin-bottom: 250px;
+ height: 600px;
 
 }
 .header-content{
   border-style: solid;
   border-width: 1px;
    border-color: #fff;
-  margin: 30px;
+width: auto;
+height: 560px;
+margin-left: 20px;
+margin-right: 20px;
+}
+hr.style1{
+	border-top: 1px solid #8c8b8b;
 }
