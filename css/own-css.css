@@ -88,6 +88,7 @@ width: auto;
 height: 560px;
 margin-left: 20px;
 margin-right: 20px;
+ overflow-y: scroll;
 }
 @media only screen and (max-width: 736px) {
   .section1{
@@ -112,5 +113,18 @@ margin-right: 20px;
 }
 .section2-content{
    width: auto;
-   height: 900px;
+   height: 950px;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
 }
